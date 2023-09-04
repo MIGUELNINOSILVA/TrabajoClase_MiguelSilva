@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navegation{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem;
+}
+
+.navegation li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/* Media */
+
+@media (min-width: 481px) and (max-width: 767px){
+    .navegation{
+        
+    }
+}
