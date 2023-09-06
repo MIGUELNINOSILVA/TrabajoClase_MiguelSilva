@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DROPBOX</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="./images/drop.ico">
-    
-</head>
-<body>
-    <header class="navigation">
-        <div class="left">
-            <div class="left-content">
-                <div class="item-lef item-left-img"><img src="./images/drop.ico" alt=""></div>
-                <div class="item-lef item-lef-dropbox">Dropbox</div>
-                <div class="item-lef"><a href="#">¿Por qué DropxBox?</a></div>
-                <div class="item-lef"><a href="#">Productos</a></div>
-                <div class="item-lef"><a href="#">Soluciones</a></div>
-                <div class="item-lef"><a href="#">Precios</a></div>
-            </div>
-        </div>
-        <div class="right">
-            <div class="right-content">
-                <div class="item-right item-right-img"><img src="images/red-mundial.png" alt=""></div>
-                <div class="item-right"><a href="#">Contacto</a></div>
-                <div class="item-right"><a href="#">Obtener la aplicación</a></div>
-                <div class="item-right"><a href="#">Registrarse</a></div>
-                <div class="item-right"><a href="#">Inicia sesión</a></div>
-                <div class="item-right"><a href="#">Comenzar</a></div>
-            </div>
-        </div>
-    </header>
+    <script src="https://kit.fontawesome.com/72c3b961d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./images/drop.ico" />
+  </head>
+  <body>
+    <nav>
+      <ul class="left">
+        <li class="left-img">
+          <img src="./images/drop.ico" alt="" width="100%" height="100%" />
+        </li>
+        <li class="left-dropbox">Dropbox</li>
+        <li>¿Por qué Dropbox?</li>
+        <li>Productos</li>
+        <li>Soluciones</li>
+        <li>Precios</li>
+      </ul>
+      <ul class="right">
+        <li><img src="./images/red-mundial.png" alt="" width="20rem" /></li>
+        <li>Contacto</li>
+        <li>Obtener la aplicación</li>
+        <li>Registrarse</li>
+        <li>Inicia sesión</li>
+        <li><button class="right-comenzar">Comenzar -></button></li>
+      </ul>
+      <div class="responsive">
+        <ul>
+          <li><img src="./images/drop.ico" alt=""></li>
+        </ul>
+        <ul class="registrar">
+          <li>Registrarse</li>
+          <li>Inicia Sesión</li>
+          <li class="img-burger">
+            <i class="fa-solid fa-bars"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <main>
-
+      <div class="content-main">
+        <h2>
+          Únete a los más de 700 millones de usuarios registrados que confían en
+          Dropbox
+        </h2>
+        <p>
+          Fácil de utilizar, confiable, privado y seguro. No es de extrañar que
+          Dropbox sea la elección para almacenar y compartir tus archivos más
+          importantes.
+        </p>
+        <div class="boton">
+          <button>Encuentra tu plan -></button>
+        </div>
+      </div>
+      <div class="content-video">
+        <video src="./images/Dropbox_Homepage.mp4" autoplay></video>
+      </div>
     </main>
-</body>
+  </body>
 </html>

@@ -1,64 +1,152 @@
+@import url(https://db.onlinewebfonts.com/c/0a5fbb91dc4a457f5945dca11d44517d?family=Atlas+Grotesk+Web+Regular+Regular);
+@import url(https://db.onlinewebfonts.com/c/bdd16224563b34f1281ab02435904d2a?family=Sharp+Grotesk+DB+Cyr+Medium+20+Regular);
+@import url(https://db.onlinewebfonts.com/c/cdd9f61181697eea8326fd96706f55e9?family=Heading+Now);
 
 * {
-  border: 0;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 body {
+  font-family: "Atlas Grotesk Web Regular Regular";
   background-color: #000;
-  box-sizing: border-box;
-  font-size: .5rem;
+  color: #fff;
 }
 
-.navigation {
-  background-color: #fff;
+nav {
   display: flex;
   justify-content: space-between;
+  background-color: #fff;
+  color: #000;
+  flex-wrap: wrap;
 }
 
-.navigation a {
-  text-decoration: none;
-  color: #787575;
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1.8rem;
+  color: #6d6d70;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 1080px) {
-  .navigation {
-    color: #787575;
-    margin: 0.5rem;
-    height: 2rem;
+.left-img {
+  width: 2.5rem;
+  height: 100%;
+  background-color: blue;
+}
+
+.left-dropbox {
+  color: #000;
+  font-weight: bold;
+}
+
+.right-comenzar {
+  border: none;
+  background-color: #2e76f0;
+  padding: 1rem;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.content-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 55rem;
+  text-align: center;
+  gap: 1rem;
+}
+
+.content-main h2 {
+  font-size: 3rem;
+}
+
+.content-main p {
+  font-size: 1rem;
+}
+
+.content-video {
+  width: 100%;
+  height: 30.rem;
+}
+
+.content-video video {
+  width: 100%;
+  height: 100%;
+}
+
+.boton button {
+  color: #000;
+  background-color: #2e76f0;
+  border: none;
+  padding: 2rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.responsive {
+  display: none;
+}
+/* Iphone 12 pro */
+
+@media (max-width: 390px) {
+  .left,
+  .right {
+    display: none;
+  }
+
+  .responsive {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
   }
 
-  .item-left {
-    width: 1rem;
-    height: 1rem;
+  .responsive ul li img{
+    height: 3.5rem;
   }
 
-  .left-content {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
+  .img-burger{
+    height: auto;
+    width: 2.8rem;
   }
 
-  .item-left-img {
-    background-color: #0061fe;
-    display: flex;
-    align-items: center;
-  }
-  .item-left img {
+  .img-burger img{
     width: 100%;
     height: 100%;
   }
-  .item-lef-dropbox {
-    color: #000;
-    font-weight: bold !important;
-  }
-  /* Right */
-  .right-content {
+
+  nav {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  main{
+    gap: 1rem;
+  }
+
+  .content-main{
+    margin: 0 3rem;
+  }
+
+  .content-main h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 0 1rem; */
+    font-size: 1.55rem;
+  }
+
+  .content-video{
+    width: 100%;
   }
 }
