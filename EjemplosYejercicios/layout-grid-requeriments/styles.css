@@ -99,7 +99,7 @@ main {
 }
 /* Iphone 12 pro */
 
-@media (max-width: 390px) {
+@media (max-width: 391px) {
   .left,
   .right {
     display: none;
