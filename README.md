@@ -11,8 +11,8 @@ My name is Miguel Angel Niño Silva. I am a 19 year old young man passionate abo
 
 ## Content Table
 
- - HTML
- - CSS
+ - [HTML - Navigation bar](./EjemplosYejercicios/1/)
+ - [CSS - USING FLEXBOX AND GRID](./EjemplosYejercicios/2/)
  - JAVASCRIPT
 
  [Api Swapi](./EjemplosYejercicios/consumoApiswapi/)
